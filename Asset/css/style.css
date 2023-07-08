@@ -1,0 +1,520 @@
+:root{
+    --blue: #1e90ff;
+    --backgroundcolor:#f5f6fa;
+    --smalltaxr:#f9f9f9;
+    --logocolor:#e8f4ff;
+    --logotextcolor:#5fb4ff;
+    --logopararcolor:#5c5c5c;
+    --ringbg:#fdfdfd;
+    --selectioncol:#e5eaf2;
+    --ringcolor:#002a7a;
+    --balancebackground:#0e3581;
+}
+.container{
+   
+    border-radius: 20px;
+    background-color: var(--backgroundcolor);
+    
+ 
+}
+
+.column-gap{
+   
+    padding: 15px;
+    justify-content: space-between;
+}
+.div_left_height
+{
+   height: 100vh;
+   background-color: #002A7A;
+   border-radius: 30px;
+}
+.c_2
+{
+    /* border:2px solid  #0a3799; */
+}
+.c_3
+{
+   border: 2px solid yellowgreen;
+}
+.p_logo{
+    padding: 12px 19px;
+    background-color: #1B4088;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.p_logo i{
+    font-size: 30px;
+    color: #fff;
+}
+.all_left_logo{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left_middle_logo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.midimu_logo-first{
+    padding: 15px;
+    background: #8c9fc3;
+    border-radius: 10px;
+}
+.log-midium-logochild{
+    padding: 15px;
+    
+}
+.log-midium-logochild i{
+   color: #fff;
+   font-size: 30px;
+    
+}
+.left_img_logo_last{
+    width: 65px;
+    height: 65px;   
+    background-color: #0a3799;
+    border-radius: 50%;
+}
+.left_img_logo_last i{
+    font-size: 30px;
+    color: #fff;
+}
+.left_img_logo_last img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+/* secand section css styling */
+
+.input_part
+{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.input_div input
+{
+    width: 75%;
+    padding: 13px;
+    border-radius: 15px;
+    height: 50px;
+    outline: none;
+    border: none;
+    position: relative;
+}
+
+.serach-ring_logo{
+  
+    width: 40px;
+    border-radius: 8px;
+    padding: 7px;
+    color: var(--ringcolor);
+    height: 40px;
+    margin-top: 20px;
+    background-color: var(--ringbg);
+    text-align: center;
+}
+.sectionmoneycontainer {
+   
+   border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.firstcontainer{
+    height: 175px;
+    width: 60%;
+    background-color: var(--ringbg);
+    border-radius: 8px;
+}
+.secanconatiner{
+    height: 160px;
+    width: 37%;
+   border-radius: 8px;
+}
+
+.secect-first-container-selection
+{
+    display: flex;
+    height: 46px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.inputselector-visa
+{
+    width: 141px;
+    height: 31px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+.inputselector-visa select
+{
+    word-wrap: normal;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+.sendmoneyamount .eightdoller{
+font-weight: bold;
+font-size: 17px;
+
+}
+.sendmoneyamount .amt
+{
+    height: 5px;
+    font-size: 14px;
+}
+.activbalance
+{
+    display: flex;
+    margin-top: 71px;
+    justify-content: space-between;
+    
+}
+.activbalance p
+{
+    font-size: 13px;
+}
+.activbalance button{
+border-radius: 8px;
+    color: white;
+    background: #44a5ff;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.secanconatiner{
+    background-color: var(--balancebackground);
+}
+.paratransition-balance{
+    display: flex;
+    justify-content: space-between;
+    color: var(--smalltaxr);
+    margin-top: -3px;
+    padding: 10px;
+}
+.doller-balnce-cur p{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--smalltaxr);
+    padding: 10px;
+}
+.stick{
+    width: 90%;
+    border-radius: 8px;
+    padding: 3px;
+    margin-top: 24px;
+    background-color: #fff;
+}
+.card-type{
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+.card1_parrent
+{
+    padding-left: 10px;
+    display: flex;
+    padding-top: 10px;
+}
+.textmng{
+    display: flex;
+    
+    justify-content: space-between;
+}
+#ba
+{
+    color: #a2a3a6;
+    font-weight: bold;
+}
+#inves
+{
+    color: #a2a3a6;
+    font-weight: bold;
+    margin-right: 168px;
+}
+.card1
+{
+    width: 37%;
+    border-radius: 8px;
+    background-color: var(--ringbg);
+}
+.imagep 
+{
+    width: 40px;
+    color: var(--logotextcolor);
+    height: 40px;
+    background-color: var(--logocolor);
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+    border-radius: 50%;
+}
+.sendmonyoption
+{
+    margin-top: 30px;
+}
+.cardprice .firstp
+{
+    height: 15px;
+    padding: 4px;
+    font-size: 21px;
+    font-weight: bold;
+}
+.cardprice p{
+    padding-left: 5px;
+}
+.incomeparat{
+    font-size: 12px;
+}
+.balanceup{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.balanceup p{
+    font-size: 13px;
+}
+.price-arrowlogo span
+{
+font-size: 13px;
+}
+.arowcir i{
+    border-radius: 50%;
+    background-color: red;
+    padding: 2px 3px;
+}
+.left_graph_part{
+    width: 57%;
+    border-radius: 8px;
+    height: 397px;
+}
+.left_graph_part img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.right_graph_part{
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 8px;
+   
+}
+.balanceanalytic
+{
+    margin-top: 30px;
+}
+.graph{
+    display: flex;
+    gap: 10px;
+}
+.apple_investement{
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    background-color: var(--ringbg);
+}
+.logopart-apple{
+    width: 39px;
+    height: 39px;
+    padding: 30p;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+}
+.logopart-apple i
+{
+    padding: 4px;
+    font-size: 26px;
+}
+
+.logodes
+{
+    margin-top: 15px;
+    font-size: 12px;
+    padding: 7px;
+}
+.logodes2
+{
+    margin-top: 10px;
+    font-size: 12px;
+    padding: 7px;
+    font-weight: bold;
+    margin-left: 63px;
+
+}
+#num{
+    color: #14e414;
+}
+.dashgap-part{
+    border-radius: 8px;
+    border-style: dashed;
+    border-radius: 8px;
+    height: 62px;
+    border-color:#e7e8eb ;
+    padding: 16px;
+    justify-content: center;
+    text-align: center;
+    color: var(--logotextcolor);
+    border-style: dashed;
+}
+
+
+
+
+
+
+/* right side  */
+
+.right_side{
+  
+    background-color: #ffff;
+    border-radius: 20px;
+}
+.right-first-para{
+    margin-top: 15px
+}
+.hand-part{
+    display: flex;
+    gap: 10px;
+    height: 21px;
+    margin-left: 10px;
+}
+.hand-part i{
+    color: #e3aa40;
+}
+.hand-part P{
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-weight: bold;
+ color: var(--logopararcolor);
+
+}
+.wel{
+    font-size: 12px;
+    margin-left: 10px;
+    color: rgb(177, 175, 175);
+}
+.headinlogo{
+    display: flex;
+   gap: 170px;
+}
+.headinlogo p{
+    margin-left: 10px;
+}
+
+.cart-parrent{
+    display: flex;
+    column-gap: 22px;
+}
+
+.card-logo{
+   
+    width: 49%;
+    height: 65px;
+    margin-left: 10px;
+    border-radius: 8px;
+
+}
+.card-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.price-doller{
+    width: 49%;
+    color: var(--logopararcolor);
+    font-weight: bold;
+    height: 65px;
+    border-radius: 8px;
+ 
+}
+.price-doller p{
+    font-size: 22px;
+    height: 12px;
+}
+.act p{
+    font-size: 13px;
+}
+.price-doller span{
+    font-size: 12px;
+}
+.paratransition{
+    display: flex;
+    gap: 95px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.budget-bill
+{
+    height: 300px;
+   overflow-y: scroll;
+   scroll-behavior: smooth;
+    align-items: center;
+   
+
+}
+.transactiondetail-div{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.namewordlogo{
+    width: 40px;
+    color:var(--logotextcolor);
+    height: 40px;
+    background-color:var(--logocolor);
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+    border-radius: 50%;
+}
+.transcomapany p{
+    font-weight: bold;
+    color: var(--logopararcolor);
+    height: 2px;
+}
+.transcomapany span{
+    font-size: 13px;
+}
+.trans_price{
+    margin-left: 30px;
+    color: #14e414;
+    font-weight: bold;
+    
+}
+.findus-para p{
+
+    font-weight: bold;
+    color: var(--logopararcolor);
+    margin-top: 10px;
+
+}
+.map_class
+{
+    width: 100%;
+    height: 350px;
+    border-radius: 8px;
+}
+.map_class iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
